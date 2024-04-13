@@ -49,7 +49,7 @@ async def main():
     parser.add_argument('-status', action='store_true', help='Whether to show status codes.')
     parser.add_argument('-title', action='store_true', help='Whether to fetch and display page titles.')
     parser.add_argument('-file', type=str, help='Optional file path to read IPs from. If omitted, reads from stdin.')
-    parser.add_argument('-concurrency', type=int, default=50, help='Maximum number of concurrent requests.')
+    parser.add_argument('-concurrency', type=int, default=85, help='Maximum number of concurrent requests.')
     parser.add_argument('-mc', '--match-code', type=lambda s: set(map(int, s.split(','))), default={200, 301, 302, 303, 304, 307, 308, 400, 401, 403, 404, 500, 502, 503}, help='Set of acceptable status codes.')
 
     args = parser.parse_args()
@@ -57,7 +57,7 @@ async def main():
     # Define default status codes if none are provided
     default_status_codes = {200, 301, 302, 303, 304, 307, 308, 400, 401, 403, 404, 500, 502, 503}
     show_status = True if args.status else False
-    print("Test:",args.match_code)
+    #print("Test:",args.match_code)
 
     ips = []
 
