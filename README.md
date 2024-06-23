@@ -49,7 +49,10 @@ cd webscout</code></pre>
 <p>This command processes mixed format addresses through <code>sanitizer.py</code>, producing a clean list, which is directly fed into <code>webscout.py</code> for scanning.</p>
 
 <p>Example screenshots:</p>
-<img width="462" alt="webscout" src="https://github.com/5u5urrus/WebScout/assets/165041037/a79b574f-fe0f-4322-aec3-d60075665ba6">
+<img width="462" alt="webscout" src="https://github.com/5u5urrus/WebScout/assets/165041037/a79b574f-fe0f-4322-aec3-d60075665ba6"><br>
+
+<img width="462" alt="Screenshot 2024-06-23 023558" src="https://github.com/5u5urrus/WebScout/assets/165041037/6360e6cf-352d-4c4c-be3c-d5b15798b4be">
+
 
 <h2>Contributing</h2>
 
